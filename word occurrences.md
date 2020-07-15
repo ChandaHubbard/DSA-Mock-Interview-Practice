@@ -12,9 +12,11 @@ Output: `Hello = 1, there = 1, how = 2, are = 1, you = 2`
     newSent = newSent.replace(sign, '');
   })
   return newSent
-}`
+}
+`
   
-`function findOcc(sentence) {
+`
+function findOcc(sentence) {
   const sentPunc = replacePunc(sentence, ['?', ',', '?'])
   const sentArr = sentPunc.split(" ")
   let sentObj = { 
@@ -28,6 +30,7 @@ Output: `Hello = 1, there = 1, how = 2, are = 1, you = 2`
     }  
   })
   return sentObj
-}`
+}
+`
 
 `findOcc(sent)`
