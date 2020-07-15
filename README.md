@@ -28,10 +28,10 @@ Work through the practice questions below to prepare for your mock interview:
   - Input: `list 1: B->i->l->b->o->a, list 2: B->i->l->b->o->b` 
   - Output: `-1`
 
-### Given a list of integers find the mode and the frequency of the mode. The mode in a list of numbers is the value that occurs the most often. If no number in the list is repeated, then there is no mode for the list.
+- #### Given a list of integers find the mode and the frequency of the mode. The mode in a list of numbers is the value that occurs the most often. If no number in the list is repeated, then there is no mode for the list.
 
-- Input: `1, 2, 3, 6, 10, 3, 5, 6, 3, 3`
-- Output: `Mode = 3, Frequency of mode = 4`
+  - Input: `1, 2, 3, 6, 10, 3, 5, 6, 3, 3`
+  - Output: `Mode = 3, Frequency of mode = 4`
 If you want more practice here are some good resources:
 
 http://blog.teamtreehouse.com/passing-google-interview-without-computer-science-degree
