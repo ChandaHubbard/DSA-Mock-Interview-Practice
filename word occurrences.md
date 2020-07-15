@@ -6,16 +6,17 @@ Output: `Hello = 1, there = 1, how = 2, are = 1, you = 2`
 
 `const sent = "Hello there, how are you? Can you tell me how to get to the nearest Starbucks?"`
 
-  `const replacePunc = (sentence, signs) => {
+  ````
+  const replacePunc = (sentence, signs) => {
   let newSent = sentence;
   signs.forEach(sign => {
     newSent = newSent.replace(sign, '');
   })
   return newSent
 }
-`
+````
   
-`
+````
 function findOcc(sentence) {
   const sentPunc = replacePunc(sentence, ['?', ',', '?'])
   const sentArr = sentPunc.split(" ")
@@ -31,6 +32,6 @@ function findOcc(sentence) {
   })
   return sentObj
 }
-`
+````
 
 `findOcc(sent)`
