@@ -2,12 +2,12 @@
 
 Work through the practice questions below to prepare for your mock interview:
 
-#### Given a document, implement an algorithm to count the number of word occurrences.
+- #### Given a document, implement an algorithm to count the number of word occurrences.
 
- - Input: `"Hello there, how are you? Can you tell me how to get to the nearest Starbucks?"`
- - Output: `Hello = 1, there = 1, how = 2, are = 1, you = 2`
+  - Input: `"Hello there, how are you? Can you tell me how to get to the nearest Starbucks?"`
+  - Output: `Hello = 1, there = 1, how = 2, are = 1, you = 2`
 
-#### Given a sorted linked list, write an algorithm to delete all duplicate numbers from the sorted linked list.
+- #### Given a sorted linked list, write an algorithm to delete all duplicate numbers from the sorted linked list.
 
 #### Given a string, write an algorithm to count the number of words in the string that are palindromes. The output must include a list of the palindromes and the number of palindromes.
 
