@@ -9,10 +9,10 @@ Work through the practice questions below to prepare for your mock interview:
 
 - #### Given a sorted linked list, write an algorithm to delete all duplicate numbers from the sorted linked list.
 
-#### Given a string, write an algorithm to count the number of words in the string that are palindromes. The output must include a list of the palindromes and the number of palindromes.
+- #### Given a string, write an algorithm to count the number of words in the string that are palindromes. The output must include a list of the palindromes and the number of palindromes.
 
- - Input: `"Dad gave mom a Tesla as a racecar"`
- - Output: `Dad, mom, racecar, 3 Palindromes`
+   - Input: `"Dad gave mom a Tesla as a racecar"`
+   - Output: `Dad, mom, racecar, 3 Palindromes`
 
 
 - #### Explain how a hash table works.
