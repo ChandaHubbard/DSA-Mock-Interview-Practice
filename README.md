@@ -17,16 +17,16 @@ Work through the practice questions below to prepare for your mock interview:
 
 - #### Explain how a hash table works.
 
-### Given 2 linked lists, where each node in each linked list represents a character in a string, write a function compare() that compares the 2 strings, i.e., it returns 0 if both strings are the same, 1 if the 1st linked list is lexicographically greater, and -1 if the 2nd string is lexicographically greater.
+- #### Given 2 linked lists, where each node in each linked list represents a character in a string, write a function `compare()` that compares the 2 strings, i.e., it returns `0` if both strings are the same, `1` if the 1st linked list is lexicographically greater, and `-1` if the 2nd string is lexicographically greater.
 
-- Input: `list 1: B->i->l->b->o->a, list 2: B->i->l->b->o` 
-- Output: `1`
+  - Input: `list 1: B->i->l->b->o->a, list 2: B->i->l->b->o` 
+  - Output: `1`
 
-- Input: `list 1: B->i->l->b->o, list 2: B->i->l->b->o`
-- Output: `0`
+  - Input: `list 1: B->i->l->b->o, list 2: B->i->l->b->o`
+  - Output: `0`
 
-- Input: `list 1: B->i->l->b->o->a, list 2: B->i->l->b->o->b` 
-- Output: `-1`
+  - Input: `list 1: B->i->l->b->o->a, list 2: B->i->l->b->o->b` 
+  - Output: `-1`
 
 ### Given a list of integers find the mode and the frequency of the mode. The mode in a list of numbers is the value that occurs the most often. If no number in the list is repeated, then there is no mode for the list.
 
