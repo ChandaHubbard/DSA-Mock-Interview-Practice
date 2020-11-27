@@ -6,7 +6,8 @@ Given a document, implement an algorithm to count the number of word occurrences
 `let sentence = "Hello there, how are you? Can you tell me how to get to the nearest Starbucks?"`
 
 ### Output: 
-```{
+````
+{
   Hello: 1,
   there: 1,
   how: 2,
@@ -21,7 +22,7 @@ Given a document, implement an algorithm to count the number of word occurrences
   nearest: 1,
   Starbucks: 1
 }
-```
+````
 
 
 ## My Solution 
