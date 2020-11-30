@@ -8,7 +8,14 @@ Given a string, write an algorithm to count the number of words in the string th
  ## My Solution
  
  ```
- let whichOnesAndHowMany = str.split(" ").filter(x => x.toLowerCase() === x.toLowerCase().split("").reverse().join("") && x.length > 1)
+function howManyPalindromes(str) {
+let whichOnesAndHowMany = str
+                           .split(" ")
+                           .filter(x => x.toLowerCase() === x.toLowerCase()
+                                                               .split("")
+                                                               .reverse()
+                                                               .join("") 
+                                    && x.length > 1)
 return `${whichOnesAndHowMany.join(", ")}, ${whichOnesAndHowMany.length} Palindromes`
 }
 ```
